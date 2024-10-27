@@ -340,14 +340,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alwatr/nano-build@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@alwatr/nano-build@npm:2.0.2"
+"@alwatr/nano-build@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@alwatr/nano-build@npm:2.0.3"
   dependencies:
     esbuild: "npm:^0.24.0"
   bin:
     nano-build: ./nano-build.cjs
-  checksum: 10c0/e36b8e0807a2096a883f9b534543fce7b46bebe2e062b5ab2ec5d1b83ab534205b55146aa7393ecf3237552f5ab2fa22f2889003039417da089bacc1af8d61df
+  checksum: 10c0/6fe3e78963e478e35a661b91aa487ae990e86a95b7c497f3f9bb27e1d0c610b33160f190a062e6ce3bf10a74616b528b63256de8738d4207331b822763de017f
   languageName: node
   linkType: hard
 
@@ -554,17 +554,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@alwatr/tsconfig-base@npm:^1.3.2":
-  version: 1.3.2
-  resolution: "@alwatr/tsconfig-base@npm:1.3.2"
-  checksum: 10c0/d92d80881d380502249a4febfd78dc8051f0b77ce92069f7f31e091cfbb504e58dce1c456ce2a3b069d5773238dcfe1ee912623a954c48a6d6df0385d4048cd2
+"@alwatr/tsconfig-base@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "@alwatr/tsconfig-base@npm:1.3.3"
+  checksum: 10c0/e5900d36d66ffabf3c944e964eb776b0b424d3560422282c86544d7e1501ec239802ebb05f0b6f8e46e58cb4bf437c1e4b9ccf78987320ddc82beabccef4b275
   languageName: node
   linkType: hard
 
-"@alwatr/type-helper@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "@alwatr/type-helper@npm:2.0.2"
-  checksum: 10c0/0ea8ac7b531737d3e832c447dc62e2ff74f79e856f8d98790ee34a57fcd88db81a05eb1306a54a9a4f805eee9059a7721a3b543ea10fc27f7ee29b5c732ec207
+"@alwatr/type-helper@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@alwatr/type-helper@npm:2.0.3"
+  checksum: 10c0/0b485d51d215242e8a59bba01acc64d9fc9738fb4f6be66ec0eee1d02736b28481ed1b6cb512d85583d8d435bf36c6a26a2adc5695cb6fecf86f94a89029c501
   languageName: node
   linkType: hard
 
@@ -581,10 +581,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@alwatr/windstyle@workspace:packages/windstyle"
   dependencies:
-    "@alwatr/nano-build": "npm:^2.0.2"
+    "@alwatr/nano-build": "npm:^2.0.3"
     "@alwatr/prettier-config": "npm:^1.0.6"
-    "@alwatr/tsconfig-base": "npm:^1.3.2"
-    "@alwatr/type-helper": "npm:^2.0.2"
+    "@alwatr/tsconfig-base": "npm:^1.3.3"
+    "@alwatr/type-helper": "npm:^2.0.3"
     tailwindcss: "npm:^3.4.14"
     typescript: "npm:^5.6.3"
   languageName: unknown
@@ -3520,91 +3520,91 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/html-darwin-arm64@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-darwin-arm64@npm:1.7.39"
+"@swc/html-darwin-arm64@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-darwin-arm64@npm:1.7.40"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/html-darwin-x64@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-darwin-x64@npm:1.7.39"
+"@swc/html-darwin-x64@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-darwin-x64@npm:1.7.40"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/html-linux-arm-gnueabihf@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-linux-arm-gnueabihf@npm:1.7.39"
+"@swc/html-linux-arm-gnueabihf@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-linux-arm-gnueabihf@npm:1.7.40"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@swc/html-linux-arm64-gnu@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-linux-arm64-gnu@npm:1.7.39"
+"@swc/html-linux-arm64-gnu@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-linux-arm64-gnu@npm:1.7.40"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/html-linux-arm64-musl@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-linux-arm64-musl@npm:1.7.39"
+"@swc/html-linux-arm64-musl@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-linux-arm64-musl@npm:1.7.40"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/html-linux-x64-gnu@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-linux-x64-gnu@npm:1.7.39"
+"@swc/html-linux-x64-gnu@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-linux-x64-gnu@npm:1.7.40"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@swc/html-linux-x64-musl@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-linux-x64-musl@npm:1.7.39"
+"@swc/html-linux-x64-musl@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-linux-x64-musl@npm:1.7.40"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@swc/html-win32-arm64-msvc@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-win32-arm64-msvc@npm:1.7.39"
+"@swc/html-win32-arm64-msvc@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-win32-arm64-msvc@npm:1.7.40"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@swc/html-win32-ia32-msvc@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-win32-ia32-msvc@npm:1.7.39"
+"@swc/html-win32-ia32-msvc@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-win32-ia32-msvc@npm:1.7.40"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@swc/html-win32-x64-msvc@npm:1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html-win32-x64-msvc@npm:1.7.39"
+"@swc/html-win32-x64-msvc@npm:1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html-win32-x64-msvc@npm:1.7.40"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@swc/html@npm:^1.7.39":
-  version: 1.7.39
-  resolution: "@swc/html@npm:1.7.39"
+"@swc/html@npm:^1.7.40":
+  version: 1.7.40
+  resolution: "@swc/html@npm:1.7.40"
   dependencies:
     "@swc/counter": "npm:^0.1.3"
-    "@swc/html-darwin-arm64": "npm:1.7.39"
-    "@swc/html-darwin-x64": "npm:1.7.39"
-    "@swc/html-linux-arm-gnueabihf": "npm:1.7.39"
-    "@swc/html-linux-arm64-gnu": "npm:1.7.39"
-    "@swc/html-linux-arm64-musl": "npm:1.7.39"
-    "@swc/html-linux-x64-gnu": "npm:1.7.39"
-    "@swc/html-linux-x64-musl": "npm:1.7.39"
-    "@swc/html-win32-arm64-msvc": "npm:1.7.39"
-    "@swc/html-win32-ia32-msvc": "npm:1.7.39"
-    "@swc/html-win32-x64-msvc": "npm:1.7.39"
+    "@swc/html-darwin-arm64": "npm:1.7.40"
+    "@swc/html-darwin-x64": "npm:1.7.40"
+    "@swc/html-linux-arm-gnueabihf": "npm:1.7.40"
+    "@swc/html-linux-arm64-gnu": "npm:1.7.40"
+    "@swc/html-linux-arm64-musl": "npm:1.7.40"
+    "@swc/html-linux-x64-gnu": "npm:1.7.40"
+    "@swc/html-linux-x64-musl": "npm:1.7.40"
+    "@swc/html-win32-arm64-msvc": "npm:1.7.40"
+    "@swc/html-win32-ia32-msvc": "npm:1.7.40"
+    "@swc/html-win32-x64-msvc": "npm:1.7.40"
   dependenciesMeta:
     "@swc/html-darwin-arm64":
       optional: true
@@ -3626,7 +3626,7 @@ __metadata:
       optional: true
     "@swc/html-win32-x64-msvc":
       optional: true
-  checksum: 10c0/2c2a2e2474e2c734c195b4864b1eff34914fcf2c707dbef8e29e225d037664813a98db340f1ad1ed1901e76646e98b051048b792f38e2718734d8a6b380c1617
+  checksum: 10c0/90f4933edf1955c47e1acb1384321acb45d5db82d63dd62b69d13e2596a0404bf169810e28a84ce3638ea7bcf631b016fd0aaa61b7f19dd0c6089c39a767f831
   languageName: node
   linkType: hard
 
@@ -3813,21 +3813,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
-  version: 22.7.6
-  resolution: "@types/node@npm:22.7.6"
+"@types/node@npm:*, @types/node@npm:^22.8.1":
+  version: 22.8.1
+  resolution: "@types/node@npm:22.8.1"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/d4406a63afce981c363fb1d1954aaf1759ad2d487c0833ebf667565ea4e45ff217d6fab4b5343badbdeccdf9d2e4a0841d633e0c929ceabcb33c288663dd0c73
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^22.7.9":
-  version: 22.7.9
-  resolution: "@types/node@npm:22.7.9"
-  dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/2d1917702b9d9ede8e4d8151cd8b1af8bc147d543486474ffbe0742e38764ea73105939e6a767addf7a4c39e842e16eae762bff90617d7b7f9ee3fbbb2d23bfa
+    undici-types: "npm:~6.19.8"
+  checksum: 10c0/83550fdf72a7db5b55eceac3f4fb038844eaee20202bdd2297a8248370cfa08317bda1605b781a8043eda4f173b75e73632e652fc85509eb14dfef78fa17337f
   languageName: node
   linkType: hard
 
@@ -4311,11 +4302,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:packages/api"
   dependencies:
-    "@alwatr/nano-build": "npm:^2.0.2"
+    "@alwatr/nano-build": "npm:^2.0.3"
     "@alwatr/prettier-config": "npm:^1.0.6"
-    "@alwatr/tsconfig-base": "npm:^1.3.2"
-    "@alwatr/type-helper": "npm:^2.0.2"
-    "@types/node": "npm:^22.7.9"
+    "@alwatr/tsconfig-base": "npm:^1.3.3"
+    "@alwatr/type-helper": "npm:^2.0.3"
+    "@types/node": "npm:^22.8.1"
     alwatr: "npm:^2.0.3"
     common: "workspace:^"
     typescript: "npm:^5.6.3"
@@ -4331,13 +4322,13 @@ __metadata:
     "@11ty/eleventy-plugin-rss": "npm:^2.0.2"
     "@alwatr/icon-set-extra": "npm:^0.4.0"
     "@alwatr/icon-set-material": "npm:^2.0.1"
-    "@alwatr/nano-build": "npm:^2.0.2"
+    "@alwatr/nano-build": "npm:^2.0.3"
     "@alwatr/prettier-config": "npm:^1.0.6"
-    "@alwatr/tsconfig-base": "npm:^1.3.2"
-    "@alwatr/type-helper": "npm:^2.0.2"
+    "@alwatr/tsconfig-base": "npm:^1.3.3"
+    "@alwatr/type-helper": "npm:^2.0.3"
     "@alwatr/windstyle": "workspace:^"
-    "@swc/html": "npm:^1.7.39"
-    "@types/node": "npm:^22.7.9"
+    "@swc/html": "npm:^1.7.40"
+    "@types/node": "npm:^22.8.1"
     "@web/dev-server": "npm:^0.4.6"
     alwatr: "npm:^2.0.3"
     common: "workspace:^"
@@ -5152,11 +5143,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "common@workspace:packages/common"
   dependencies:
-    "@alwatr/nano-build": "npm:^2.0.2"
+    "@alwatr/nano-build": "npm:^2.0.3"
     "@alwatr/prettier-config": "npm:^1.0.6"
-    "@alwatr/tsconfig-base": "npm:^1.3.2"
-    "@alwatr/type-helper": "npm:^2.0.2"
-    "@types/node": "npm:^22.7.9"
+    "@alwatr/tsconfig-base": "npm:^1.3.3"
+    "@alwatr/type-helper": "npm:^2.0.3"
+    "@types/node": "npm:^22.8.1"
     alwatr: "npm:^2.0.3"
     lit: "npm:^3.2.1"
     typescript: "npm:^5.6.3"
@@ -12255,7 +12246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
+"undici-types@npm:~6.19.8":
   version: 6.19.8
   resolution: "undici-types@npm:6.19.8"
   checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
@@ -12454,7 +12445,7 @@ __metadata:
   dependencies:
     "@alwatr/eslint-config": "npm:^1.2.11"
     "@alwatr/prettier-config": "npm:^1.0.6"
-    "@alwatr/tsconfig-base": "npm:^1.3.2"
+    "@alwatr/tsconfig-base": "npm:^1.3.3"
     "@lerna-lite/changed": "npm:^3.10.0"
     "@lerna-lite/cli": "npm:^3.10.0"
     "@lerna-lite/diff": "npm:^3.10.0"
