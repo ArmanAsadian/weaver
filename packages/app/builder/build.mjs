@@ -2,7 +2,7 @@ import eleventy from '@11ty/eleventy';
 import {logger} from './logger.mjs';
 import {eleventyConfig} from './config.mjs';
 import {argv} from 'process';
-import {rm, mkdir, cp} from 'node:fs/promises';
+import {cp} from 'node:fs/promises';
 
 const srcDir = './src';
 const siteDir = `${srcDir}/site/content`;

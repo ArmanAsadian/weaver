@@ -8,7 +8,5 @@ layout: base-html
 
   {{ content | safe }}
 
-  {# {% renderFile "./content/_include/prerender.data.cjs", {
-    collections: collections.all
-  } %} #}
+  {% renderFile "./src/site/include/prerender.template.cjs", {pages: collections.all} %}
 </body>
