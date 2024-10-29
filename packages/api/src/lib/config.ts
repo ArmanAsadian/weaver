@@ -1,4 +1,4 @@
-import {createLogger, packageTracer, type FetchOptions} from 'alwatr/nanolib';
+import {createLogger, packageTracer, getEnv, type FetchOptions} from 'alwatr/nanolib';
 import {Region, StoreFileType, type AlwatrNitrobaseConfig, type StoreFileStat} from 'alwatr/nitrobase';
 
 import type {CryptoFactoryConfig, NanotronApiServerConfig} from 'alwatr/nanotron';
@@ -7,43 +7,22 @@ __dev_mode__: packageTracer.add(__package_name__, __package_version__);
 
 export const logger = /* #__PURE__ */ createLogger(__package_name__);
 
-const env = /* #__PURE__ */ (() => {
-  const devConfig = {
-    dbPath: './db',
-    tokenSecret: 'DEV_SECRET',
-    host: '0.0.0.0',
-    port: 8000
-  } as const;
-
-  const env_ = {
-    ...process.env,
-    ...(__dev_mode__ ? devConfig : {}),
-  };
-
-  for (const key in devConfig) {
-    if (!Object.hasOwn(devConfig, key)) continue;
-    if (!Object.hasOwn(env_, key)) throw new Error(`${key} required in production.`);
-  }
-
-  return env_;
-})();
-
 export const config = {
   token: {
-    secret: env.tokenSecret!,
+    secret: getEnv({ name: 'tokenSecret', developmentValue: 'DEV_SECRET' }),
     duration: '1y',
   } as CryptoFactoryConfig,
 
   nanotronApiServer: {
-    host: env.host,
-    port: +env.port!,
+    host: getEnv({name: 'host', defaultValue: '0.0.0.0'}),
+    port: +getEnv({name: 'port', defaultValue: '80', developmentValue: '8000'}),
     prefix: '/api/',
     // allowAllOrigin: true,
   } as NanotronApiServerConfig,
 
   nitrobase: {
     config: {
-      rootPath: env.dbPath!,
+      rootPath: getEnv({name: 'dbPath', developmentValue: './db'}),
     } as AlwatrNitrobaseConfig,
 
     usersCollection: {
