@@ -6,7 +6,7 @@ import {postcssBuild} from './postcss.mjs';
 import {dateString, timeString, trim} from './util.mjs';
 import directoryOutputPlugin from '@11ty/eleventy-plugin-directory-output';
 import {alwatrIcon} from './alwatr-icon.cjs';
-import EleventyRenderPlugin from '@11ty/eleventy/src/Plugins/RenderPlugin.js';
+import {EleventyRenderPlugin} from '@11ty/eleventy';
 import {generateServiceWorker} from './workbox.mjs';
 import {logger} from './logger.mjs';
 
