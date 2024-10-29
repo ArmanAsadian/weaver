@@ -1,5 +1,5 @@
-function prerenderTemplate({collections}) {
-  const prerenderUrls = collections.filter((page) => page.data.ignorePrerendering !== true).map((page) => page.url);
+function prerenderTemplate({pages}) {
+  const prerenderUrls = pages.filter((page) => page.url != false && page.data.ignorePrerendering !== true).map((page) => page.url);
   const prerenderScript = {
     prerender: [
       {
