@@ -1,8 +1,9 @@
+import {parseBodyAsJson} from 'alwatr/nanotron';
+
 import {config, logger} from '../lib/config.js';
 import {cryptoFactory} from '../lib/crypto.js';
 import {alwatrNitrobase} from '../lib/nitrobase.js';
 import {nanotronApiServer} from '../lib/server.js';
-import {parseBodyAsJson} from '../pre-handler/parse-request-body.js';
 
 nanotronApiServer.defineRoute<{body: DictionaryReq}>({
   method: 'PUT',
