@@ -77,7 +77,7 @@ updates:
       - priority-low
       - maintenance
     ignore:
-      - dependency-name: "ghcr.io/alwatr/node"
+      - dependency-name: "alwatr/node"
         update-types:
           - version-update:semver-major
 
@@ -94,6 +94,6 @@ updates:
       - priority-low
       - maintenance
     ignore:
-      - dependency-name: "ghcr.io/alwatr/node"
+      - dependency-name: "alwatr/node"
         update-types:
           - version-update:semver-major
