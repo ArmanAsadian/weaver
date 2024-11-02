@@ -1,5 +1,4 @@
-ARG NODE_VERSION=22.10.0
-FROM ghcr.io/alwatr/node:${NODE_VERSION} AS builder
+FROM ghcr.io/alwatr/node:22.10.0 AS builder
 
 RUN set -ex; \
   apk add --no-cache git; \
@@ -23,8 +22,8 @@ RUN set -eux; \
 
 # ---
 
-FROM ghcr.io/alwatr/node:${NODE_VERSION}
-LABEL org.opencontainers.image.base.name="ghcr.io/alwatr/node:${NODE_VERSION}"
+FROM ghcr.io/alwatr/node:22.10.0
+LABEL org.opencontainers.image.base.name="ghcr.io/alwatr/node:22.10.0"
 
 RUN apk add --no-cache curl
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --start-interval=1s --retries=3 CMD curl -fso /dev/null http://localhost/health || exit 1
