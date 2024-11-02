@@ -3,6 +3,159 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0-alpha.1](https://github.com/Alwatr/weaver/compare/v1.6.2...v2.0.0-alpha.1) (2024-11-02)
+
+### Features
+
+* Add AppGreeting component for test ([28fb907](https://github.com/Alwatr/weaver/commit/28fb907695273f929fbfe067b70b940bb3e12917)) by @AliMD
+* Add CSS custom media queries for layout ([d0a8453](https://github.com/Alwatr/weaver/commit/d0a8453c476728cc63ac145ba0a67268310babce)) by @AliMD
+* Add industry page layout and related product section ([661419b](https://github.com/Alwatr/weaver/commit/661419b81420ad8e89b19407d24c50b26a765267)) by @AliMD
+* Add initial structure for services page in Persian ([39bcb25](https://github.com/Alwatr/weaver/commit/39bcb25df78f41b02fe9b551615504e21bfa2843)) by @AliMD
+* Add new CSS file for navigation drawer styling ([a139e18](https://github.com/Alwatr/weaver/commit/a139e189a150187bf475c5c3e24d3904a7475f03)) by @AliMD
+* Add service page layout and related content ([724d41f](https://github.com/Alwatr/weaver/commit/724d41f1d0a5a2618c26b5d8134bcb5e1d7619ab)) by @AliMD
+* **app:** add `typography` demo page ([325befb](https://github.com/Alwatr/weaver/commit/325befbf2da00475c6621adea729f572a0e6a4b6)) by @mohammadhonarvar
+* **app:** add a new image ([0a2c770](https://github.com/Alwatr/weaver/commit/0a2c7702b9588aba1b3df8ee8168671c69208e07)) by @AliMD
+* **app:** Add BaseElement class for custom element styling ([0c9d797](https://github.com/Alwatr/weaver/commit/0c9d797139b49a869f0d89ed7a7a8f48a5a446c2)) by @AliMD
+* **app:** add static fonts ([ecc3bb3](https://github.com/Alwatr/weaver/commit/ecc3bb3a75b7c0e6f7505bcc1bed44d278e305e6)) by @AliMD
+* **app:** define material theme colors ([8bd99df](https://github.com/Alwatr/weaver/commit/8bd99df7b8eb769dd636daa69a668f7414653f3a)) by @AliMD
+* **app:** update image assets ([6dde36f](https://github.com/Alwatr/weaver/commit/6dde36fcf41bd863919d347875f9d0dc4030bf81)) by @AliMD
+* **app:** Update Node version in Dockerfile to 22.9.0 ([820875a](https://github.com/Alwatr/weaver/commit/820875ab9c804042492d62204048c9e3f1f6eb05)) by @AliMD
+* **app:** Update tailwind.config.js to use material color theme ([8e6d286](https://github.com/Alwatr/weaver/commit/8e6d286138a7478ac763546cb09c26790b7145b9)) by @AliMD
+* bottom-navigation-bar template ([1300dbb](https://github.com/Alwatr/weaver/commit/1300dbb0d6aae328140e7ece795a2607c25d2828)) by @AliMD
+* **css:** add `config` to set `var`s ([d0d7d7b](https://github.com/Alwatr/weaver/commit/d0d7d7ba7b563fda891ddff1185dcac0f7ed3fae)) by @AliMD
+* make types in `common` globally ([82453ba](https://github.com/Alwatr/weaver/commit/82453ba55e1003499891554b1ee75db0f3c54f14)) by @mohammadhonarvar
+* prevent `side-effect`s from `build` result & update deps ([4f2bc7b](https://github.com/Alwatr/weaver/commit/4f2bc7b1a32b4dbadbbc14603d23b04adf33505c)) by @mohammadhonarvar
+* remove `alwatr` folder & use `alwatr` package instead. ([19fc4c4](https://github.com/Alwatr/weaver/commit/19fc4c4e7ae50383e6145a1b54ea2defdb8d5244)) by @mohammadhonarvar
+* review, fix, format all codes ([10d463f](https://github.com/Alwatr/weaver/commit/10d463fb0e34aa58fb6c95b4a4d95f44f3445d49)) by @AliMD
+* **site/data:** new configuration data ([efbab24](https://github.com/Alwatr/weaver/commit/efbab249e5091f03947b709cf3bbdea6aae472b2)) by @AliMD
+* **typography:** add typography demo CSS import ([84b446d](https://github.com/Alwatr/weaver/commit/84b446de9dfefe41877079c57209ad1db731b56d)) by @AliMD
+* **typography:** add typography demo page ([25ef110](https://github.com/Alwatr/weaver/commit/25ef11070c6fa1b2b5ebc9638cda4d0d6a0301ae)) by @AliMD
+* update postcss.mjs to resolve windstyle imports ([1fb5fd8](https://github.com/Alwatr/weaver/commit/1fb5fd8ba2e0950f6a1c8556bcd180c99edc144e)) by @AliMD
+* upgrade to new structure ([6cdc4ee](https://github.com/Alwatr/weaver/commit/6cdc4eefe1afaa44cddc38e177cf037166528c0f)) by @AliMD
+
+### Bug Fixes
+
+* **app:** postcss error handling ([6badd0c](https://github.com/Alwatr/weaver/commit/6badd0cf87aeae538e177024595b90d980aa5dc1)) by @AliMD
+* **app:** remove `nano-build` options & add `__dev_mode__` ([8dae58e](https://github.com/Alwatr/weaver/commit/8dae58ef458672b6b413c53ffc3b168a8456be0e)) by @mohammadhonarvar
+* **app:** remove an extra `COPY` statement ([ac7e039](https://github.com/Alwatr/weaver/commit/ac7e039946c1001130a3b3f3fc0777445c135f93)) by @mohammadhonarvar
+* **app:** update `references` ([633f083](https://github.com/Alwatr/weaver/commit/633f083bd1409af9b3e4a09316a0d188bb32f225)) by @mohammadhonarvar
+* **app:** update configs ([5cae969](https://github.com/Alwatr/weaver/commit/5cae969eee694824a9e3a96a0ce3c52a8c5d6b65)) by @mohammadhonarvar
+* **app:** Update Node.js version in Dockerfile ([507b012](https://github.com/Alwatr/weaver/commit/507b0126b4178be26dccd8f6dedeb0f9c561b44e)) by @AliMD
+* **app:** update the text of `banner` ([30cd368](https://github.com/Alwatr/weaver/commit/30cd368fcc458bf032e9171ef031c28445d7887d)) by @mohammadhonarvar
+* **app:** upgrade to the new API ([2aef040](https://github.com/Alwatr/weaver/commit/2aef040cb397a21bd602270388c07fcee82b8366)) by @mohammadhonarvar
+* **app:** use `delay` instead of `wait` ([22d6770](https://github.com/Alwatr/weaver/commit/22d67705c807ef93040260f5186650e68158f53f)) by @mohammadhonarvar
+* **app:** use `FetchOptions` from `flux` ([1f0a7e0](https://github.com/Alwatr/weaver/commit/1f0a7e01a8d74e3f1714db7ad8e41f09d0299ab4)) by @mohammadhonarvar
+* **app:** use the new API of `logger` ([f9b4d21](https://github.com/Alwatr/weaver/commit/f9b4d21ab301dd008234a863807d390e4ae37fa4)) by @mohammadhonarvar
+* **config:** addPassthroughCopy paths ([cf3c3cf](https://github.com/Alwatr/weaver/commit/cf3c3cf73b6087c1b2bf013e5a0a594ae2f1a2d0)) by @AliMD
+* **contact:** fix aspect-video class in contact page ([c9b6ba8](https://github.com/Alwatr/weaver/commit/c9b6ba892133c1337ce3b1cc9e45cacd659730ad)) by @AliMD
+* favicon location ([b89a5d2](https://github.com/Alwatr/weaver/commit/b89a5d26cd0a1121a8a9c8d20a642cd84cb6ea58)) by @AliMD
+* new paths ([59aef5e](https://github.com/Alwatr/weaver/commit/59aef5ee9e25d7326fee1bfd921144c016a07a76)) by @AliMD
+* **packages:** update `tsconfigs` & deps & codes ([cc68780](https://github.com/Alwatr/weaver/commit/cc687801a785e51112246eae932065821238f44e)) by @mohammadhonarvar
+* rename all pmpa to weaver ([0524331](https://github.com/Alwatr/weaver/commit/052433184af7d2b0e835a810970c79ab008d71c4)) by @AliMD
+
+### Code Refactoring
+
+* Add async function to copy font to output directory ([845f947](https://github.com/Alwatr/weaver/commit/845f947b939a607119ea045cf0c80802994d7647)) by @AliMD
+* Add chat page with support message and comment list template ([25c13c4](https://github.com/Alwatr/weaver/commit/25c13c4806f975b4c2a2672ea745e30967d22cbb)) by @AliMD
+* Add contact page with support message and contact options ([c2cd948](https://github.com/Alwatr/weaver/commit/c2cd948e6241a6e9b31274eb1f806df523e869a7)) by @AliMD
+* Add EleventyRenderPlugin to config.mjs ([a4d0e6e](https://github.com/Alwatr/weaver/commit/a4d0e6ea1c18a59022196ac309ace2648f7576cc)) by @AliMD
+* Add lock-scroll module to handle scroll locking ([3945a76](https://github.com/Alwatr/weaver/commit/3945a76975b40e9bab6388bcdd76dc79b61efdb5)) by @AliMD
+* Add lock-scroll module to handle scroll locking and remove unused global-util.ts file ([2431042](https://github.com/Alwatr/weaver/commit/243104215d47410e8877444b033d1d51306bdd40)) by @AliMD
+* Add navigation-drawer.njk template for the site's navigation drawer ([f368687](https://github.com/Alwatr/weaver/commit/f368687373c7dcfc0d5da5b8a9468a711a665c01)) by @AliMD
+* Add new CSS imports for layout and navigation drawer ([a02b5c9](https://github.com/Alwatr/weaver/commit/a02b5c95260e9c5431c882292f409e43a5716ccb)) by @AliMD
+* **api:** Update Dockerfile package references ([5308021](https://github.com/Alwatr/weaver/commit/5308021f1f4a4662385ab5798bca575a54dc359e)) by @AliMD
+* **api:** Update Dockerfile to improve package installation process ([bce45e4](https://github.com/Alwatr/weaver/commit/bce45e472c74f1db5bd65beaaca6ec908135f9f7)) by @AliMD
+* **app:** rename folder structores ([89084e3](https://github.com/Alwatr/weaver/commit/89084e35c479f9b4a0f68dbe1e3ef17da4fc4e7b)) by @AliMD
+* **app:** Update base-body.njk to use auto color scheme ([594e904](https://github.com/Alwatr/weaver/commit/594e90433553e8c290bb465bbc5d7884b12c82a1)) by @AliMD
+* **app:** Update config.ts to use debugApi v1 ([ae74ca8](https://github.com/Alwatr/weaver/commit/ae74ca86567ec4927b9f77c479442a915c2a9afc)) by @AliMD
+* **app:** Update greeting component to extend BaseElement class ([4141f0b](https://github.com/Alwatr/weaver/commit/4141f0b2c4628fca8897085062b96d7faa378c64)) by @AliMD
+* **app:** Update home.njk to add state class to h1 element ([629d838](https://github.com/Alwatr/weaver/commit/629d83864403514b453ac972871e6d597a41ac85)) by @AliMD
+* **build:** Refactor build script and improve asset handling ([5a03c89](https://github.com/Alwatr/weaver/commit/5a03c8996f316a629edfdeec5942008e8522bb3d)) by @AliMD
+* **build:** remove unused imports in build.mjs ([fab6cc7](https://github.com/Alwatr/weaver/commit/fab6cc7797984aef2348dfbfa0ccfc630278fb68)) by @mohammadhonarvar
+* **build:** Simplify build script and remove unnecessary clean step ([228f64d](https://github.com/Alwatr/weaver/commit/228f64da45debd79d08ab60ffb9511f5ea78da13)) by @AliMD
+* **build:** update import statement in config.mjs ([088c18b](https://github.com/Alwatr/weaver/commit/088c18b4e320c40fa40fd8e3939d3eb9a0329cdf)) by @mohammadhonarvar
+* **build:** Update siteDir path in build script ([78950dd](https://github.com/Alwatr/weaver/commit/78950dd223c369628ab01198a8fec7129523b5e7)) by @AliMD
+* **config:** Refactor eleventy config, remove addPassthroughCopy, add addWatchTarget ([8f3fd70](https://github.com/Alwatr/weaver/commit/8f3fd70a7640468c98491a17b47f561387855c7d)) by @AliMD
+* **config:** Update eleventy config paths and data file settings ([e140595](https://github.com/Alwatr/weaver/commit/e14059593cf619ac5fa3dece7d8ad0520a0fc7ab)) by @AliMD
+* **config:** Update eleventy config paths and data file settings ([68913b8](https://github.com/Alwatr/weaver/commit/68913b8bc8e6cd1b9691f250b2e0e52b224eeb7b)) by @AliMD
+* **content:** Add new home page template ([bdbd091](https://github.com/Alwatr/weaver/commit/bdbd091e99863360e2d3159b8e68b55f31577fcf)) by @AliMD
+* **content:** new error-404.njk template ([e7e9191](https://github.com/Alwatr/weaver/commit/e7e919125fc86a28c36884a15a87aead92f10b63)) by @AliMD
+* **content:** rename old files ([9da536b](https://github.com/Alwatr/weaver/commit/9da536ba52b346560f99414574ad96500f7c5eb8)) by @AliMD
+* **content:** Update error-404.njk, manifest.njk, robots.txt.njk, and sitemap.template.js ([2162029](https://github.com/Alwatr/weaver/commit/21620291df8ebcbed330f1ef023b8e85d373f734)) by @AliMD
+* **content:** Update page metadata for Weaver ([5a02c51](https://github.com/Alwatr/weaver/commit/5a02c515dc8bd0a39922ac631492723c69754de9)) by @AliMD
+* **content:** Update site name to 'Weaver WebSite' ([76b2d69](https://github.com/Alwatr/weaver/commit/76b2d69e9e0acaf63931630ea044a64610161232)) by @AliMD
+* **css:** Add base styles for body element ([a461dd0](https://github.com/Alwatr/weaver/commit/a461dd04e3b8aef2a821dc08075ec53c83f3e047)) by @AliMD
+* **css:** Add base styles for main-container layout ([aa7b924](https://github.com/Alwatr/weaver/commit/aa7b92460edc44d98f2fd00dfcadb2418f2fcff9)) by @AliMD
+* **css:** Remove unused layout styles ([d3ddeb4](https://github.com/Alwatr/weaver/commit/d3ddeb452d7fbdad8dc666e244aafd59896acc81)) by @AliMD
+* **css:** remove unused max-w-screen-large class from body layout ([7fdc16c](https://github.com/Alwatr/weaver/commit/7fdc16cf692d3ce9c974e7868f80f28a7733af41)) by @AliMD
+* **css:** Update home page styles and add call button ([4e603c8](https://github.com/Alwatr/weaver/commit/4e603c8a587bc3920702a7be7a9a8a6e7939b33d)) by @AliMD
+* **css:** Update main.css imports ([572523d](https://github.com/Alwatr/weaver/commit/572523d2e80fa7facc2f6f14d4514fd32cd2c01b)) by @AliMD
+* **font:** Remove font.cjs file and related functions ([96c5697](https://github.com/Alwatr/weaver/commit/96c5697231e216bf8ce28794a78dca9f934678dd)) by @AliMD
+* **layout:** Remove deprecated site.json and add new index.data.cjs file ([3010817](https://github.com/Alwatr/weaver/commit/3010817f2f1cc8ba6ba71109476f46bfbff50e1a)) by @AliMD
+* **layout:** Rename prerender.data.cjs to prerender.template.cjs and update exports ([4c0c5a0](https://github.com/Alwatr/weaver/commit/4c0c5a0601499632833557dfe0d8cc08fb6dc89a)) by @AliMD
+* **layout:** Update base-html.njk file ([903f3f5](https://github.com/Alwatr/weaver/commit/903f3f594fc48cab0af505b7bcbf08d3cfb03b64)) by @AliMD
+* **layout:** Update base-html.njk file ([622eff7](https://github.com/Alwatr/weaver/commit/622eff720b08e529ca86e61068092fe20a23943a)) by @AliMD
+* **layout:** Update layout setting for robots.txt.njk ([3444a91](https://github.com/Alwatr/weaver/commit/3444a9169f9e7fe50db6b372e8af35996ddc0485)) by @AliMD
+* **layout:** Update meta.njk file ([fbe469f](https://github.com/Alwatr/weaver/commit/fbe469f7ce1f39de254531ffff50400cfc1be1e7)) by @AliMD
+* **manifest:** Update manifest.njk with new data structure ([3bc166e](https://github.com/Alwatr/weaver/commit/3bc166e13037f9a2f308ad600bffb9689b0dff82)) by @AliMD
+* Move old ts files ([5ee1ff2](https://github.com/Alwatr/weaver/commit/5ee1ff21c271126166f70e91af4020c58fdbf8a2)) by @AliMD
+* new prerenderScript script ([246e034](https://github.com/Alwatr/weaver/commit/246e03499da9391901e880ac74aeb77ed7edcc64)) by @AliMD
+* **prerender:** update prerenderTemplate function to use 'pages' instead of 'collections' ([088a182](https://github.com/Alwatr/weaver/commit/088a1829f574efeb6ef48e63e6cfdea0751a47b4)) by @mohammadhonarvar
+* Remove unnecessary build options from package.json ([cda092b](https://github.com/Alwatr/weaver/commit/cda092bb1a067feb707262fdd142a89e178e29cb)) by @AliMD
+* Remove unnecessary front matter from error-404.njk, manifest.njk, robots.txt.njk, and sitemap.template.js ([04d4114](https://github.com/Alwatr/weaver/commit/04d4114348e1c755c97d5ae7dd6e68af0f82e51d)) by @AliMD
+* Remove unused "nano-build" configuration from package.json ([41fce64](https://github.com/Alwatr/weaver/commit/41fce642c53c3a8d5e5f5bc3a458977e2984e5a3)) by @AliMD
+* Remove unused CSS files ([519b7ec](https://github.com/Alwatr/weaver/commit/519b7ec6cf1141eca967916704c41e1545fa4453)) by @AliMD
+* Remove unused global-util.ts file ([e53a4c9](https://github.com/Alwatr/weaver/commit/e53a4c95d175ddd93688cd64d59873fdb43a53ea)) by @AliMD
+* Remove unused stargazers data from Persian site configuration ([168a119](https://github.com/Alwatr/weaver/commit/168a119ad5fc05d2198352da79fd313a024e7e68)) by @AliMD
+* rename font.cjs ([3ce661c](https://github.com/Alwatr/weaver/commit/3ce661cd339706aaaa3bc9eae699a5aa07115294)) by @AliMD
+* **sitemap:** Update sitemap generation logic ([59dc47d](https://github.com/Alwatr/weaver/commit/59dc47d272115b7b50d017282c727a0ed8974a4c)) by @AliMD
+* **typography:** Remove old typography demo page and add new typography demo page ([6804b55](https://github.com/Alwatr/weaver/commit/6804b55def17f285498aa722c75a98d91549b28b)) by @AliMD
+* Update 404 page with Persian translation and add contact options ([c99fbe1](https://github.com/Alwatr/weaver/commit/c99fbe13c72619f7f4eb6c8fc5abb70024c2ea36)) by @AliMD
+* Update alwatr-icon.css to use CSS components layer ([b221714](https://github.com/Alwatr/weaver/commit/b221714c4f26b29b38582bcc997427ee4545f6a4)) by @AliMD
+* Update base-body.njk layout and include new templates ([c624c28](https://github.com/Alwatr/weaver/commit/c624c288a1b9e16fc379d60fb267d5d3451d6028)) by @AliMD
+* Update build command in package.json to use 'node' instead of 'yarn' ([0448aef](https://github.com/Alwatr/weaver/commit/0448aef3f3e2f69a4e26fa1757881b4850e9eeb9)) by @AliMD
+* Update config.ts to use localJsonStorage for debugApi ([7dee142](https://github.com/Alwatr/weaver/commit/7dee142001f368f534465d0a5c12e228bdb98685)) by @AliMD
+* Update CSS class names in contact.njk and home.njk ([ae5f8ed](https://github.com/Alwatr/weaver/commit/ae5f8eda0c9852ca9eebb5f95718e40cb2111c0e)) by @AliMD
+* Update feed data file to generate Atom feed ([efc92d1](https://github.com/Alwatr/weaver/commit/efc92d19cd48ed46c0cc90d2753b3a854827cbb2)) by @AliMD
+* Update home page with Persian translation and add contact options ([6e71ef6](https://github.com/Alwatr/weaver/commit/6e71ef638a9283e5fa44a833417b73ece2404169)) by @AliMD
+* Update import statements in config module ([af2be8c](https://github.com/Alwatr/weaver/commit/af2be8cc1c3b104a7bba5186624b8ca40ca6512c)) by @AliMD
+* Update keep-scroll.ts to use waitForAnimationFrame instead of untilNextFrame ([1690be1](https://github.com/Alwatr/weaver/commit/1690be11ca655b5299151935995b2f45b31d33d8)) by @AliMD
+* Update layout.css for body base layout ([4c02833](https://github.com/Alwatr/weaver/commit/4c0283372f72bfbf7aa14dde043d7bc062f66bd7)) by @AliMD
+* Update layout.css for Bottom Navigation Bar styling ([644e63f](https://github.com/Alwatr/weaver/commit/644e63ff4334cd54279a653c771365041277ec72)) by @AliMD
+* Update layout.css for Main Container styling ([0630c8f](https://github.com/Alwatr/weaver/commit/0630c8fdaadc5baea593b2b7bf0c86a64756a438)) by @AliMD
+* Update layout.css for Pages Header styling ([6301ead](https://github.com/Alwatr/weaver/commit/6301eadb29164034a9c25c178bfd45d9493e15de)) by @AliMD
+* Update layout.css for Support Panel styling ([0948737](https://github.com/Alwatr/weaver/commit/0948737f6874d6a11b205e647bd9e52c42637c74)) by @AliMD
+* Update logger banner in main.ts ([6cdf199](https://github.com/Alwatr/weaver/commit/6cdf199e906142d757cb9c4178687ecdf3d1d8ee)) by @AliMD
+* Update logger import in builder module ([e917f49](https://github.com/Alwatr/weaver/commit/e917f49f9be8e834c4a33187719e9aa51483330e)) by @AliMD
+* Update main.css imports to include Windstyle package exports and plugins ([70b2ac0](https://github.com/Alwatr/weaver/commit/70b2ac07fa5cfebc6ab789ab149ec649f02e55f5)) by @AliMD
+* Update meta.njk to include alternate link for feeds ([af95b8b](https://github.com/Alwatr/weaver/commit/af95b8bc4845c18419d6fd2bc268bd4beeb92704)) by @AliMD
+* Update package name and version in logger script ([c9ad458](https://github.com/Alwatr/weaver/commit/c9ad458fa40d03872db1e228eacdefeab70157df)) by @AliMD
+* Update package versions to 2.0.0-alpha.0 ([86b9a46](https://github.com/Alwatr/weaver/commit/86b9a4622d57c179227bfde80f555707c816b7eb)) by @AliMD
+* Update package.json dependencies and scripts ([3facc83](https://github.com/Alwatr/weaver/commit/3facc838e49457ae48d3a27325ffe30d4b094a5b)) by @AliMD
+* Update postcss.mjs to include postcssCustomMedia plugin ([6d01fc6](https://github.com/Alwatr/weaver/commit/6d01fc6ad1a7622974f18760cfbc79375a8ca1fc)) by @AliMD
+* Update site layout in Persian to use "base-body" template ([9b19260](https://github.com/Alwatr/weaver/commit/9b192605a5e4816feeacd4b50905a7c51ce5544b)) by @AliMD
+* Update site.json with sample title, description, and author information ([885f5fe](https://github.com/Alwatr/weaver/commit/885f5fedd10aecb916f045ac3e7467e36b68c382)) by @AliMD
+* Update sitemap generation to use JavaScript instead of Nunjucks template ([c4c20a0](https://github.com/Alwatr/weaver/commit/c4c20a04c9f55c17f77a66729e8de3ee80dd8c99)) by @AliMD
+* Update tailwind.config.js to include 'overflow-hidden' in the safelist ([b4f6189](https://github.com/Alwatr/weaver/commit/b4f6189a312c06b5092f32aea7608a1c18e032bb)) by @AliMD
+* Update tailwind.config.js to include Windstyle package exports and plugins ([84aabbf](https://github.com/Alwatr/weaver/commit/84aabbf7d4770b8ee32403bf90345c2d43621277)) by @AliMD
+* Update tsconfig.json to include "node" type declaration ([ba5e433](https://github.com/Alwatr/weaver/commit/ba5e4339113c1b1d0e2c970fc95c2eceec1bb6db)) by @AliMD
+* **windstyle:** Remove color-scheme.ts file and update colorPlugin ([da0084b](https://github.com/Alwatr/weaver/commit/da0084ba287bdc467b1f714092053c88ca762baa)) by @AliMD
+
+### Miscellaneous Chores
+
+* **app:** Update dependencies in package.json ([827cce4](https://github.com/Alwatr/weaver/commit/827cce4c3afca7a6f894eec03cd6ca60a486561d)) by @AliMD
+* **app:** Update nano-build-development configuration ([4eacfd3](https://github.com/Alwatr/weaver/commit/4eacfd3da7c74fda2b6bb947da054fd2e8480a94)) by @AliMD
+* **build:** Add --trace-warnings flag to build:11ty script ([11c3ee2](https://github.com/Alwatr/weaver/commit/11c3ee248c8075ddbf09d2aab97ee7a2074bd0ff)) by @AliMD
+* cleanup ([1c664c3](https://github.com/Alwatr/weaver/commit/1c664c316f80ad635c8ddffd34fae8e715496bb4)) by @AliMD
+* **deps:** bump alwatr/nginx-ws from 2.5.0 to 3.0.0 in /packages/app ([1e233dd](https://github.com/Alwatr/weaver/commit/1e233ddf356ede6816ff9eb5292f03bf378909e9)) by @dependabot[bot]
+* **deps:** bump alwatr/node from 22.10.0 to 22.11.0 in /packages/app ([fddbd55](https://github.com/Alwatr/weaver/commit/fddbd55837b622aa56e4692f7130674828615a82)) by @dependabot[bot]
+* fix the license to AGPL-3.0-only ([d6fbcbd](https://github.com/Alwatr/weaver/commit/d6fbcbd2360260e0c4b0feda6975e20f0fd1779b)) by @AliMD
+* keep old layout ([39958c9](https://github.com/Alwatr/weaver/commit/39958c93ffe9519165643e335b906b54c83cbbe3)) by @AliMD
+* move asset folder inside content ([b4e0c6f](https://github.com/Alwatr/weaver/commit/b4e0c6f3b378ef8ba5c5c0fc22e0d1709e835290)) by @AliMD
+* **node:** update docker label version ([1176ee4](https://github.com/Alwatr/weaver/commit/1176ee42f1f04c0a5bc35d2757738336671577b6)) by @AliMD
+* rename all packages ([bc2ba80](https://github.com/Alwatr/weaver/commit/bc2ba80c9ae1cc9bfbb66d7ba1ae512bff73bf42)) by @AliMD
+* rename assets folder to static ([3c257a1](https://github.com/Alwatr/weaver/commit/3c257a1907fa4a771f06c605b8ba0839a92a6809)) by @AliMD
+
 ## [1.6.2](https://github.com/Alwatr/weaver/compare/v1.6.1...v1.6.2) (2024-04-03)
 
 ### Bug Fixes
