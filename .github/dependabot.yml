@@ -66,6 +66,8 @@ updates:
 
   - package-ecosystem: docker
     directory: /packages/app
+    file:
+      - Dockerfile
     reviewers:
       - AliMD
     schedule:
@@ -83,6 +85,8 @@ updates:
 
   - package-ecosystem: docker
     directory: /packages/api
+    file:
+      - Dockerfile
     reviewers:
       - AliMD
     schedule:
