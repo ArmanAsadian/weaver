@@ -74,7 +74,7 @@
   "css.customData": [
     ".vscode/tailwind.json"
   ],
-  "github.copilot.chat.experimental.codeGeneration.instructions": [
+  "github.copilot.chat.codeGeneration.instructions": [
     {
       "file": ".github/copilot-instruction.md"
     }
