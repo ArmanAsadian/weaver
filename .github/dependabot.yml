@@ -76,10 +76,10 @@ updates:
       - ci
       - priority-low
       - maintenance
-    # ignore:
-    #   - dependency-name: "ghcr.io/alwatr/node"
-    #     update-types:
-    #       - version-update:semver-major
+    ignore:
+      - dependency-name: "ghcr.io/alwatr/node"
+        update-types:
+          - version-update:semver-major
 
   - package-ecosystem: docker
     directory: /packages/api
@@ -93,7 +93,7 @@ updates:
       - ci
       - priority-low
       - maintenance
-    # ignore:
-    #   - dependency-name: "ghcr.io/alwatr/node"
-    #     update-types:
-    #       - version-update:semver-major
+    ignore:
+      - dependency-name: "ghcr.io/alwatr/node"
+        update-types:
+          - version-update:semver-major
