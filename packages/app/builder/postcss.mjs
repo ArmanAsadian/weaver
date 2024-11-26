@@ -15,7 +15,9 @@ import postcssCustomMedia from 'postcss-custom-media';
 
 import {createRequire} from 'module';
 const require = createRequire(import.meta.url); // ESM way to access require
-const windstylePath = require.resolve('@alwatr/windstyle').replace('/dist/main.cjs', '/');
+const windstylePath = require.resolve('@alwatr/windstyle')
+  .replace('/dist/main.cjs', '/')
+  .replace('\\dist\\main.cjs', '\\');
 
 const basePath = 'src/css/';
 
